@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="SafeDOM.js"></script>
+<script>
+function abc()
+{
+localStorage.setItem("xss","<img src=x onerror=alert(25)>");
+document.getElementById('x').innerHTML=document.location.hash.replace("#",'');
+document.getElementById('y').innerHTML=localStorage.getItem('xss');
+}
+</script>
+</head>
+<body>
+
+<button onclick="abc()" id="b">Change all DIV and P</button>
+</br></br>
+<div id ="x">This is a DIV.</div>
+<p id="y">This is another paragraph.</p>
+
+</body>
+</html>
