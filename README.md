@@ -1,6 +1,5 @@
 # SafeDOM
-An attempt to prevent DOM XSS.
-ALPHA Build.
+An failed attempt to prevent DOM XSS.
 
 Inspired form Nafeez's work Hookish (http://hookish.skepticfx.com/), I was working on a project called SafeDOM. A library that protects from DOM XSS automatically. It was just an attempt but it failed pathetically because browsers are selfish about standards and JS is mad by nature.
 
