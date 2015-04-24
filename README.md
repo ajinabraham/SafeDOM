@@ -16,7 +16,7 @@ Inspired form Nafeez's work Hookish (http://hookish.skepticfx.com/), I was worki
 1. Browsers are not standard. Not all things works on cross browsers.
 2. location.href is universally non-redefinable which is a common DOM XSS Source.
 3. JavaScript is mad by nature - See the below video
-[![JavaScript Madness](https://lh6.googleusercontent.com/z5mPh4K8vav9Nv6o6yN7y0uhVBVNXQGNB9zvVcqURgfuPqaHvaiDUXOmKY-UUVEMe9VB2tODjkwqaHE=w1280-h720-n)](https://drive.google.com/file/d/0B_Ci-1YbMqshZDl3X0wyVGJNRTA/view?usp=sharing)
+[![JavaScript Madness](https://cloud.githubusercontent.com/assets/4301109/7317300/edf391ec-ea9c-11e4-823e-7dbb399e7a33.png)](https://drive.google.com/file/d/0B_Ci-1YbMqshZDl3X0wyVGJNRTA/view?usp=sharing)
 
  
 **Final Thoughts**
