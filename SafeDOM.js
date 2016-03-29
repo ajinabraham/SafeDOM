@@ -364,4 +364,3 @@ var SafeSource =
 
 
     Object.freeze(SafeSource);
-    SafeSource.Hooks();
